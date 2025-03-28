@@ -92,7 +92,15 @@ marp-pre {
     background-color: var(--overlay);
     border-color: var(--highlight-high);
 }
-
+section.lead h1 {
+    position: absolute;
+    top: 12%;
+    left: auto;
+    right: auto;
+}
+section.columns2 {
+    column-count: 2;
+}
 /* Code blok */
 .hljs-comment {
     color: var(--muted);

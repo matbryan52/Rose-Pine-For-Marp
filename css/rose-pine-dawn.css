@@ -23,7 +23,7 @@ palette in :root
     --pine: #286983;
     --foam: #56949f;
     --iris: #907aa9;
-    --highlight-low: #f4ede8;
+    --highlight-low: #faf4ed;
     --highlight-muted: #dfdad9;
     --highlight-high: #cecacd;
 
@@ -101,6 +101,9 @@ section.lead h1 {
 section.columns2 {
     column-count: 2;
 }
+/* section::after {
+    content: attr(data-marpit-pagination) '/' attr(data-marpit-pagination-total);
+} */
 /* Code blok */
 .hljs-comment {
     color: var(--muted);

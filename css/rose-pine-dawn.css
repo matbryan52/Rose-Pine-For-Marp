@@ -36,6 +36,11 @@ palette in :root
     background-color: var(--base);
 }
 /* Common style */
+/* a,
+a:active,
+a:focus {
+    outline: none;
+} */
 h1 {
     color: var(--rose);
     padding-bottom: 2mm;

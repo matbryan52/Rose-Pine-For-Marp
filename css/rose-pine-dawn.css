@@ -85,6 +85,10 @@ li {
 img {
     background-color: var(--highlight-low);
 }
+img[alt~="center"] {
+    display: block;
+    margin: 0 auto;
+}
 strong {
     color: var(--text);
     font-weight: inherit;

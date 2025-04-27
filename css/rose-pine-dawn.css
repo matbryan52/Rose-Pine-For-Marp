@@ -129,9 +129,10 @@ section[data-marpit-advanced-background="background"]>div[data-marpit-advanced-b
 section[data-marpit-advanced-background="background"]>div[data-marpit-advanced-background-container]>figure>figcaption>a {
     font-family: var(--global-font)
 }
-/* section::after {
-    content: attr(data-marpit-pagination) '/' attr(data-marpit-pagination-total);
-} */
+section::after {
+    /* content: attr(data-marpit-pagination) '/' attr(data-marpit-pagination-total); */
+    font-size: 16px;
+}
 /* Code blok */
 .hljs-comment {
     color: var(--muted);
